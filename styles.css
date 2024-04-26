@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0; 
+    background: linear-gradient(45deg, #080808, #313131);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+.seccion-ingreso label {
+    display: block;
+    margin-bottom: 20px; 
+}
+
+.seccion-ingreso input[type="text"],
+.seccion-ingreso input[type="range"] {
+    width: 50%;
+    padding: 8px; 
+    box-sizing: border-box; 
+    background-color: #3f3f3f;
+    color: #f0f0f0;
+    border: 1px solid #cdcdcd; 
+    border-radius: 5px; 
+    margin-bottom: 25px; 
+}
+.seccion-ingreso button {
+    width: 10%; 
+    padding: 10px 20px;
+    box-sizing: border-box; 
+    background-color: #e2e2e2; 
+    color: rgb(19, 19, 19); 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: 30px auto 0;
+}
+
+.seccion-ingreso button:hover {
+    background-color: #aaa9a9; 
+}
+.registros-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; 
+}
+
+.registros-container ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.registros-container li {
+    background-color: #393939;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

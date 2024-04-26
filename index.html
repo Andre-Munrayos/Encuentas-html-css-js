@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Encuestas HTML,CSS y JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="seccion-ingreso">
+        <h2>Sección de Preguntas</h2>
+        <form id="formulario">
+            <label for="pregunta1">¿Cual es tu color favorito?</label>
+            <input type="text" id="pregunta1" name="pregunta1" placeholder="Escribe tu respuesta...">
+            <label for="pregunta2">¿Que actividad te gusta hacer en tu tiempo libre?</label>
+            <input type="text" id="pregunta2" name="pregunta2" placeholder="Escribe tu respuesta...">
+            <label for="pregunta3">¿Cual es tu película o anime favorito?</label>
+            <input type="text" id="pregunta3" name="pregunta3" placeholder="Escribe tu respuesta...">
+            <label for="pregunta4">¿Del 1 al 5,Que tanto te gustan los deportes?</label>
+            <input type="range" id="pregunta4" name="pregunta4" min="1" max="5">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="seccion-visualizacion">
+        <h2>Sección de Visualización</h2>
+        <div class="registros-container">
+            <ul id="registros">
+            </ul>
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
